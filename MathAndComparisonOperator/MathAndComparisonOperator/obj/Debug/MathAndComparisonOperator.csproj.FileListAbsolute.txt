@@ -1,0 +1,7 @@
+C:\Users\haile\Documents\GitHub\C#\MathAndComparisonOperator\MathAndComparisonOperator\bin\Debug\MathAndComparisonOperator.exe.config
+C:\Users\haile\Documents\GitHub\C#\MathAndComparisonOperator\MathAndComparisonOperator\bin\Debug\MathAndComparisonOperator.exe
+C:\Users\haile\Documents\GitHub\C#\MathAndComparisonOperator\MathAndComparisonOperator\bin\Debug\MathAndComparisonOperator.pdb
+C:\Users\haile\Documents\GitHub\C#\MathAndComparisonOperator\MathAndComparisonOperator\obj\Debug\MathAndComparisonOperator.csproj.AssemblyReference.cache
+C:\Users\haile\Documents\GitHub\C#\MathAndComparisonOperator\MathAndComparisonOperator\obj\Debug\MathAndComparisonOperator.csproj.CoreCompileInputs.cache
+C:\Users\haile\Documents\GitHub\C#\MathAndComparisonOperator\MathAndComparisonOperator\obj\Debug\MathAndComparisonOperator.exe
+C:\Users\haile\Documents\GitHub\C#\MathAndComparisonOperator\MathAndComparisonOperator\obj\Debug\MathAndComparisonOperator.pdb
