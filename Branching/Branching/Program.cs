@@ -10,16 +10,20 @@ namespace Branching
     {
         static void Main()
         {
+
             Console.WriteLine("Welcome to Package Express. Please follow the instructions below.");
-            //weight
+        
             Console.WriteLine("Please enter package weight");
             decimal packageWeight = Convert.ToDecimal(Console.ReadLine());
-
-            //check if weight is over 50 
-            if(packageWeight > 50)
+            //weight
+            if (packageWeight > 50)
             {
                 Console.WriteLine("Package too heavy to be shipped via Package Express. Have a good day.");
+                Console.ReadLine();
+                System.Environment.Exit(0);
             }
+
+
             //width
             Console.WriteLine("Please enter package width");
             decimal packageWidth = Convert.ToDecimal(Console.ReadLine());
@@ -30,15 +34,25 @@ namespace Branching
             Console.WriteLine("Please enter package length");
             decimal packageLength = Convert.ToDecimal(Console.ReadLine());
 
+               
+
             //check if width + height + length > 50
-            if(packageWidth + packageHeight + packageLength > 50)
+            if (packageWidth + packageHeight + packageLength > 50)
             {
                 Console.WriteLine("Package too big to be shipped via Package Express.");
+                Console.ReadLine();
+                return;
             }
 
-            decimal total = (((packageWidth * packageHeight * packageLength) * packageLength ) /100);
-            Console.WriteLine("Your estimated total shipping cost for this package is: "+ total);
+            decimal total = (((packageWidth * packageHeight * packageLength) * packageWeight) / 100);
+            Console.WriteLine("Your estimated total shipping cost for this package is: " + total);
             Console.ReadLine();
+                
+            }
+            
         }
+        
     }
-}
+
+    
+
