@@ -10,20 +10,24 @@ namespace WhileAndDoWhile
     {
         static void Main()
         {
-
-            int day = 4;
-            switch (day)
+            //while loop
+            int i = 0;
+            while (i < 5)
             {
-                case 6:
-                    Console.WriteLine("Today is Saturday.");
-                    break;
-                case 7:
-                    Console.WriteLine("Today is Sunday.");
-                    break;
-                default:
-                    Console.WriteLine("Looking forward to the Weekend.");
-                    break;
+                Console.WriteLine(i);
+                i++;
             }
+
+            int a = 10;
+
+            //do loop
+            do
+            {
+                Console.WriteLine("value of a: {0}", a);
+                a = a + 1;
+            }
+            while (a < 20);
+            Console.ReadLine();
         }
     }
 }

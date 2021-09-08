@@ -1,0 +1,6 @@
+C:\Users\haile\Documents\GitHub\C#\WhileAndDoWhile\WhileAndDoWhile\obj\Debug\WhileAndDoWhile.csproj.CoreCompileInputs.cache
+C:\Users\haile\Documents\GitHub\C#\WhileAndDoWhile\WhileAndDoWhile\bin\Debug\WhileAndDoWhile.exe.config
+C:\Users\haile\Documents\GitHub\C#\WhileAndDoWhile\WhileAndDoWhile\bin\Debug\WhileAndDoWhile.exe
+C:\Users\haile\Documents\GitHub\C#\WhileAndDoWhile\WhileAndDoWhile\bin\Debug\WhileAndDoWhile.pdb
+C:\Users\haile\Documents\GitHub\C#\WhileAndDoWhile\WhileAndDoWhile\obj\Debug\WhileAndDoWhile.exe
+C:\Users\haile\Documents\GitHub\C#\WhileAndDoWhile\WhileAndDoWhile\obj\Debug\WhileAndDoWhile.pdb
