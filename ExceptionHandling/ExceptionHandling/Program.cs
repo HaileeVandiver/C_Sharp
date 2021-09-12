@@ -19,14 +19,17 @@ class Program
             321
         };
         //ask the user for a number to divide each number in the list by
-        Console.WriteLine("pick a number to divide each number in this magical list by");
-        int userNum = Convert.ToInt32(Console.ReadLine());
+       
 
-        for (int i =0; i <myList.Count; i++)
-        {
-            try {
+        
+        try {
+            Console.WriteLine("pick a number to divide each number in this magical list by");
+            int userNum = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0; i < myList.Count; i++)
+            {
                 Console.WriteLine(myList[i] / userNum);
                 Console.ReadLine();
+            }
             }
 
             catch (FormatException)
@@ -44,12 +47,12 @@ class Program
             }
             finally
             {
-                
-                Console.ReadLine();
+            Console.WriteLine("We have emerged froom the try catch block");
+            Console.ReadLine();
             }
         }
-        Console.WriteLine("We have emerged froom the try catch block");
+        
 
-    }
 }
+
 
