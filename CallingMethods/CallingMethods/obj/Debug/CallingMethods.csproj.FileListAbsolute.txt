@@ -1,0 +1,7 @@
+C:\Users\haile\Documents\GitHub\C#\CallingMethods\CallingMethods\bin\Debug\CallingMethods.exe.config
+C:\Users\haile\Documents\GitHub\C#\CallingMethods\CallingMethods\bin\Debug\CallingMethods.exe
+C:\Users\haile\Documents\GitHub\C#\CallingMethods\CallingMethods\bin\Debug\CallingMethods.pdb
+C:\Users\haile\Documents\GitHub\C#\CallingMethods\CallingMethods\obj\Debug\CallingMethods.csproj.AssemblyReference.cache
+C:\Users\haile\Documents\GitHub\C#\CallingMethods\CallingMethods\obj\Debug\CallingMethods.csproj.CoreCompileInputs.cache
+C:\Users\haile\Documents\GitHub\C#\CallingMethods\CallingMethods\obj\Debug\CallingMethods.exe
+C:\Users\haile\Documents\GitHub\C#\CallingMethods\CallingMethods\obj\Debug\CallingMethods.pdb
