@@ -20,7 +20,7 @@ namespace TwentyOne
             
             }
             Console.WriteLine(deck.Cards.Count);
-            Console.WriteLine("Times shuffled: {0}");
+            
             Console.ReadLine(); 
             
             
