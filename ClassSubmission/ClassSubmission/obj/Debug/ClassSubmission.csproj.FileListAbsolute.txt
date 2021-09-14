@@ -1,0 +1,7 @@
+C:\Users\haile\Documents\GitHub\C#\ClassSubmission\ClassSubmission\bin\Debug\ClassSubmission.exe.config
+C:\Users\haile\Documents\GitHub\C#\ClassSubmission\ClassSubmission\bin\Debug\ClassSubmission.exe
+C:\Users\haile\Documents\GitHub\C#\ClassSubmission\ClassSubmission\bin\Debug\ClassSubmission.pdb
+C:\Users\haile\Documents\GitHub\C#\ClassSubmission\ClassSubmission\obj\Debug\ClassSubmission.csproj.AssemblyReference.cache
+C:\Users\haile\Documents\GitHub\C#\ClassSubmission\ClassSubmission\obj\Debug\ClassSubmission.csproj.CoreCompileInputs.cache
+C:\Users\haile\Documents\GitHub\C#\ClassSubmission\ClassSubmission\obj\Debug\ClassSubmission.exe
+C:\Users\haile\Documents\GitHub\C#\ClassSubmission\ClassSubmission\obj\Debug\ClassSubmission.pdb
