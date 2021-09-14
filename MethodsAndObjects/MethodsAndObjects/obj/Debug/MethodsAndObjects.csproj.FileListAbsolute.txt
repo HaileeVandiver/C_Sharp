@@ -1,0 +1,6 @@
+C:\Users\haile\Documents\GitHub\C#\MethodsAndObjects\MethodsAndObjects\bin\Debug\MethodsAndObjects.exe.config
+C:\Users\haile\Documents\GitHub\C#\MethodsAndObjects\MethodsAndObjects\bin\Debug\MethodsAndObjects.exe
+C:\Users\haile\Documents\GitHub\C#\MethodsAndObjects\MethodsAndObjects\bin\Debug\MethodsAndObjects.pdb
+C:\Users\haile\Documents\GitHub\C#\MethodsAndObjects\MethodsAndObjects\obj\Debug\MethodsAndObjects.csproj.CoreCompileInputs.cache
+C:\Users\haile\Documents\GitHub\C#\MethodsAndObjects\MethodsAndObjects\obj\Debug\MethodsAndObjects.exe
+C:\Users\haile\Documents\GitHub\C#\MethodsAndObjects\MethodsAndObjects\obj\Debug\MethodsAndObjects.pdb
