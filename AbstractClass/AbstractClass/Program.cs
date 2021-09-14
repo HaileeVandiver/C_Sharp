@@ -20,7 +20,8 @@ namespace AbstractClass
             empObject.SayName();
 
             //use polymorphism to create an object of IQuittable and call Quit() 
-            empObject.Quit(); 
+            IQuittable empQuit = new Employee();
+            empQuit.Quit(); 
 
             Console.ReadLine(); 
         }
