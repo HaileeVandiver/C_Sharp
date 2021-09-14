@@ -14,8 +14,14 @@ namespace AbstractClass
             Employee empObject = new Employee();
             empObject.firstName = "Sample";
             empObject.lastName = "Student";
+
+        
             //call method
             empObject.SayName();
+
+            //use polymorphism to create an object of IQuittable and call Quit() 
+            empObject.Quit(); 
+
             Console.ReadLine(); 
         }
     }

@@ -13,5 +13,10 @@ namespace AbstractClass
             Console.WriteLine("Name: {0} {1}", firstName, lastName);
             Console.ReadLine();
         }
+
+        public void Quit()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

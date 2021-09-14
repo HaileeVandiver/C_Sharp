@@ -8,9 +8,7 @@ namespace AbstractClass
 {
     interface IQuittable
     {
-        public void Quit(Employee employee)
-        {
-
-        }
+        void Quit();
+        
     }
 }
