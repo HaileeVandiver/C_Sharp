@@ -10,8 +10,8 @@ namespace ClassSubmission
     {
         static void Main(string[] args)
         {
-           
 
+            int returnStat;
             //instantiate MathOp class
             Math myNumObj = new Math();
 
@@ -32,7 +32,12 @@ namespace ClassSubmission
             int numTwo = 2;
             Console.WriteLine("Your number times 2 is: " + Math.myMethodOp(userNum, numTwo));
 
-            
+
+            returnStat = StaticMath.MethodMult(userNum);
+            Console.WriteLine("That number times 3 is: " + returnStat);
+
+            Console.ReadLine();
+
             
 
 

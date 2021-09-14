@@ -26,13 +26,6 @@ namespace TwentyOne
             
         }
        
-        //public static Deck Shuffle(Deck deck, int times)
-        //{
-        //    for( int i = 0; 9 <times; i++)
-        //    {
-        //        deck = Shuffle(deck);
-        //    }
-        //    return deck; 
-        //}
+       
     }
 }
