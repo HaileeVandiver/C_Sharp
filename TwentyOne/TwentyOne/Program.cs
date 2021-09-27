@@ -10,10 +10,17 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            
+         
             
 
             Deck deck = new Deck();
+            //int count = deck.Cards.Count(x => x.Face == Face.Ace);
+
+            //List<Card> newList = deck.Cards.Where(x => x.Face == Face.King).ToList();
+
+            List<int> numberList = new List<int>() { 1, 2, 3, 535, 342, 23 };
+            int sum = numberList.Sum(x=> x+5);
+            Console.WriteLine(sum);
           
             deck.Shuffle(3);
 
