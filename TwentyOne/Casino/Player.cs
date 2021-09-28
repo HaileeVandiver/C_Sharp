@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyOne
+namespace Casino
 {
     public class Player
     {
@@ -23,6 +23,7 @@ namespace TwentyOne
         public bool isActivelyPlaying { get; set; }
         //overloaded operator method 
         public bool Stay { get; set; }
+        public Guid Id { get; set; }
         public bool Bet(int amount)
         {
             if (Balance - amount < 0)
