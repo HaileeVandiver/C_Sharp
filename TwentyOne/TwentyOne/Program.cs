@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace TwentyOne
 {
@@ -10,29 +11,31 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-         
             
-
-            Deck deck = new Deck();
-            //int count = deck.Cards.Count(x => x.Face == Face.Ace);
-
-            //List<Card> newList = deck.Cards.Where(x => x.Face == Face.King).ToList();
-
-            List<int> numberList = new List<int>() { 1, 2, 3, 535, 342, 23 };
-            int sum = numberList.Sum(x=> x+5);
-            Console.WriteLine(sum);
-          
-            deck.Shuffle(3);
-
-            foreach (Card card in deck.Cards)
-            { 
-                Console.WriteLine(card.Face + " of " + card.Suit); 
-            
+            Console.WriteLine("Welcome to the Grand Hotel and Casino. What is your name?");
+            string playerName = Console.ReadLine();
+            Console.WriteLine("How mcuh money did you bring today?");
+            int bank = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Hello, {0}. Would you like to play 21 right now?", playerName);
+            string answer = Console.ReadLine().ToLower();
+            if (answer == "yes" || answer == "yeah" || answer == "y")
+            {
+                Player player = new Player(playerName, bank);
+                Game game = new TwentyOneGame();
+                //adding player to the game
+                game += player;
+                player.isActivelyPlaying = true; 
+                //check if playing and has money 
+                while (player.isActivelyPlaying && player.Balance > 0)
+                {
+                    game.Play(); 
+                }
+                //game is over so take out player 
+                game -= player;
+                Console.WriteLine("Thank you for playing!"); 
             }
-            Console.WriteLine(deck.Cards.Count);
-            
-            Console.ReadLine(); 
-            
+            Console.WriteLine("See you again soon!");
+            Console.Read(); 
             
         }
        

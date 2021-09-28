@@ -1,0 +1,7 @@
+C:\Users\haile\Documents\GitHub\C#\DateTime\DateTime\bin\Debug\DateTime.exe.config
+C:\Users\haile\Documents\GitHub\C#\DateTime\DateTime\bin\Debug\DateTime.exe
+C:\Users\haile\Documents\GitHub\C#\DateTime\DateTime\bin\Debug\DateTime.pdb
+C:\Users\haile\Documents\GitHub\C#\DateTime\DateTime\obj\Debug\DateTimeAssignment.csproj.AssemblyReference.cache
+C:\Users\haile\Documents\GitHub\C#\DateTime\DateTime\obj\Debug\DateTimeAssignment.csproj.CoreCompileInputs.cache
+C:\Users\haile\Documents\GitHub\C#\DateTime\DateTime\obj\Debug\DateTime.exe
+C:\Users\haile\Documents\GitHub\C#\DateTime\DateTime\obj\Debug\DateTime.pdb
