@@ -5,3 +5,6 @@ C:\Users\haile\Documents\GitHub\C#\TwentyOne\TwentyOne\obj\Debug\TwentyOne.cspro
 C:\Users\haile\Documents\GitHub\C#\TwentyOne\TwentyOne\obj\Debug\TwentyOne.exe
 C:\Users\haile\Documents\GitHub\C#\TwentyOne\TwentyOne\obj\Debug\TwentyOne.pdb
 C:\Users\haile\Documents\GitHub\C#\TwentyOne\TwentyOne\obj\Debug\TwentyOne.csproj.AssemblyReference.cache
+C:\Users\haile\Documents\GitHub\C#\TwentyOne\TwentyOne\bin\Debug\Casino.dll
+C:\Users\haile\Documents\GitHub\C#\TwentyOne\TwentyOne\bin\Debug\Casino.pdb
+C:\Users\haile\Documents\GitHub\C#\TwentyOne\TwentyOne\obj\Debug\TwentyOne.csproj.CopyComplete
