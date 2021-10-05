@@ -54,17 +54,21 @@ namespace CarInsurance.Controllers
         public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType,Quote")] Insurees insuree)
         {
             decimal quote = 50;
-            if (DateTime.Now.Year - insuree.DateOfBirth.Year < 25)
+            if (DateTime.Now.Year - insuree.DateOfBirth.Year <= 18)
+            {
+                quote += 100;
+            }
+
+            if (DateTime.Now.Year - insuree.DateOfBirth.Year >= 19 && DateTime.Now.Year - insuree.DateOfBirth.Year < 25)
+            {
+                quote += 50;
+            }
+            if (DateTime.Now.Year - insuree.DateOfBirth.Year >= 25)
             {
                 quote += 25;
             }
 
-            if (DateTime.Now.Year - insuree.DateOfBirth.Year < 18)
-            {
-                quote += 75;
-            }
-
-            if (insuree.CarYear < 2000 == insuree.CarYear > 25)
+            if (insuree.CarYear < 2000 || insuree.CarYear > 2015)
             {
                 quote += 25;
             }
